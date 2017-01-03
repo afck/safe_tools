@@ -26,3 +26,6 @@ s/:ack_manager:/:am:/g
 s/[routing::[a-z_]* \([a-z_]*\)\.rs:\([0-9]*\)]/[\1:\2]/g
 s/peer_manager/pmng/g
 s/AckManager/AMgr/g
+s/UnacknowledgedMessage/UnackdMsg/g
+s/SignedMessage/SignedMsg/g
+s/signatures/sigs/
